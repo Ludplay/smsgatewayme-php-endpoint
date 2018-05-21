@@ -5,6 +5,7 @@ v4 smsgateway.me similar to old version's use
 https://github.com/smsgatewayme/client-php
 
 # Usage
+```
 require_once('smsGatewayV4.php');
 $token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
@@ -16,7 +17,7 @@ $options = [];
 $smsGateway = new SmsGateway($token);
 $result = $smsGateway->sendMessageToNumber($tel_destinatario, $message, $deviceID, $options);
 print_r($result);
-
+```
 # Methods working
 The main tasks are sendMessage and getMessage. The original API allow us to do more. Feel free to improve this repository.
 
