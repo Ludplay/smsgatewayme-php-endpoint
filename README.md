@@ -9,7 +9,7 @@ https://github.com/smsgatewayme/client-php
 require_once('smsGatewayV4.php');
 $token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
-$phone_number = "+0031990000000";
+$phone_number = "+5531999999999";
 $message = "Test smsGatewayV4";
 $deviceID = 00000;
 $options = [];
