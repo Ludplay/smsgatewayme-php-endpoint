@@ -1,6 +1,5 @@
-```
-<?php
 
+<?php
 require_once('smsGatewayV4.php');
 $token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
@@ -14,4 +13,3 @@ $result = $smsGateway->sendMessageToNumber($tel_destinatario, $message, $deviceI
 
 print_r($result);
 ?>
-```
